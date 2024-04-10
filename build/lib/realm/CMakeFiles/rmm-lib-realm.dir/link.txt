@@ -1,0 +1,2 @@
+/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-ar qc librmm-lib-realm.a "CMakeFiles/rmm-lib-realm.dir/src/buffer.c.obj" "CMakeFiles/rmm-lib-realm.dir/src/granule.c.obj" "CMakeFiles/rmm-lib-realm.dir/src/s2tt.c.obj"
+/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-ranlib librmm-lib-realm.a

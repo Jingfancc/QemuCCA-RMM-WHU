@@ -1,0 +1,2 @@
+/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-ar qc librmm-plat-common.a "CMakeFiles/rmm-plat-common.dir/src/plat_common_init.c.obj"
+/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-ranlib librmm-plat-common.a

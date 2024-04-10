@@ -1,0 +1,2 @@
+/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-ar qc librmm-qemu.a "CMakeFiles/rmm-qemu.dir/src/qemu_setup.c.obj" "CMakeFiles/rmm-qemu.dir/src/qemu_granule.c.obj" "CMakeFiles/rmm-qemu.dir/src/qemu_memory.c.obj"
+/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-ranlib librmm-qemu.a

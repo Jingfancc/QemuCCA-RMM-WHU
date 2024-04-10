@@ -1,0 +1,2 @@
+/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-ar qc librmm-lib-attestation.a "CMakeFiles/rmm-lib-attestation.dir/src/attestation_key.c.obj" "CMakeFiles/rmm-lib-attestation.dir/src/attestation_rnd.c.obj" "CMakeFiles/rmm-lib-attestation.dir/src/attestation_token.c.obj" "CMakeFiles/rmm-lib-attestation.dir/src/attestation_utils.c.obj"
+/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-ranlib librmm-lib-attestation.a

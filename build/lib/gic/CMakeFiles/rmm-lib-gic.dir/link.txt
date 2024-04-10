@@ -1,0 +1,2 @@
+/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-ar qc librmm-lib-gic.a "CMakeFiles/rmm-lib-gic.dir/src/gic.c.obj"
+/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-ranlib librmm-lib-gic.a

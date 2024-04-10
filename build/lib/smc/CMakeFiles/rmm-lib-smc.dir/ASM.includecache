@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cjf/v1.0-eac5/rmm/lib/arch/include/aarch64/asm_macros.S
+
+/home/cjf/v1.0-eac5/rmm/lib/smc/src/aarch64/smc.S
+asm_macros.S
+-
+

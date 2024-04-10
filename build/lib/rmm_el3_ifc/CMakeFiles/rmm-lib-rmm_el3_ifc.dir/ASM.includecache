@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/cjf/v1.0-eac5/rmm/lib/arch/include/aarch64/asm_macros.S
+
+/home/cjf/v1.0-eac5/rmm/lib/common/include/sizes.h
+utils_def.h
+-
+
+/home/cjf/v1.0-eac5/rmm/lib/common/include/utils_def.h
+stdint.h
+-
+
+/home/cjf/v1.0-eac5/rmm/lib/rmm_el3_ifc/include/rmm_el3_ifc.h
+sizes.h
+-
+smc.h
+-
+stddef.h
+-
+
+/home/cjf/v1.0-eac5/rmm/lib/rmm_el3_ifc/src/aarch64/rmm_el3_ifc_helpers.S
+asm_macros.S
+-
+rmm_el3_ifc.h
+-
+
+/home/cjf/v1.0-eac5/rmm/lib/smc/include/smc.h
+utils_def.h
+-
+

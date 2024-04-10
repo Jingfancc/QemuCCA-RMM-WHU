@@ -1,0 +1,2 @@
+/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-ar qc libmbedx509.a CMakeFiles/mbedx509.dir/pkcs7.c.obj CMakeFiles/mbedx509.dir/x509.c.obj CMakeFiles/mbedx509.dir/x509_create.c.obj CMakeFiles/mbedx509.dir/x509_crl.c.obj CMakeFiles/mbedx509.dir/x509_crt.c.obj CMakeFiles/mbedx509.dir/x509_csr.c.obj CMakeFiles/mbedx509.dir/x509write_crt.c.obj CMakeFiles/mbedx509.dir/x509write_csr.c.obj
+/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-ranlib libmbedx509.a

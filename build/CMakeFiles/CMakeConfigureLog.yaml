@@ -1,0 +1,551 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:228 (message)"
+      - "CMakeLists.txt:51 (project)"
+    message: |
+      The target system is: Generic -  - aarch64
+      The host system is: Linux - 6.6.13-amd64 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:51 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+      Compiler: /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-gcc 
+      Build flags: -fno-common;-ffunction-sections;-fdata-sections;-fno-stack-protector;-U_FORTIFY_SOURCE;-Wall;-Werror;-gdwarf-4;-ffreestanding;-march=armv8.5-a;-mbranch-protection=standard;-mgeneral-regs-only;-mstrict-align;-fomit-frame-pointer;-fpie
+      Id flags:  
+      
+      The output was:
+      1
+      /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/bin/ld: /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib/libg.a(lib_a-exit.o): in function `exit':
+      /data/jenkins/workspace/GNU-toolchain/arm-11/src/newlib-cygwin/newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:51 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-gcc 
+      Build flags: -fno-common;-ffunction-sections;-fdata-sections;-fno-stack-protector;-U_FORTIFY_SOURCE;-Wall;-Werror;-gdwarf-4;-ffreestanding;-march=armv8.5-a;-mbranch-protection=standard;-mgeneral-regs-only;-mstrict-align;-fomit-frame-pointer;-fpie
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is GNU, found in:
+        /home/cjf/v1.0-eac5/rmm/build/CMakeFiles/3.28.2/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:51 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+      Compiler: /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-c++ 
+      Build flags: -fno-common;-ffunction-sections;-fdata-sections;-fno-stack-protector;-U_FORTIFY_SOURCE;-Wall;-Werror;-gdwarf-4
+      Id flags:  
+      
+      The output was:
+      1
+      /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/bin/ld: /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib/libg.a(lib_a-exit.o): in function `exit':
+      /data/jenkins/workspace/GNU-toolchain/arm-11/src/newlib-cygwin/newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+      collect2: error: ld returned 1 exit status
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:51 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-c++ 
+      Build flags: -fno-common;-ffunction-sections;-fdata-sections;-fno-stack-protector;-U_FORTIFY_SOURCE;-Wall;-Werror;-gdwarf-4
+      Id flags: -c 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/cjf/v1.0-eac5/rmm/build/CMakeFiles/3.28.2/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1131 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:51 (project)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      aarch64-none-elf-gcc (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) 11.2.1 20220111
+      Copyright (C) 2021 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:51 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/cjf/v1.0-eac5/rmm/build/CMakeFiles/CMakeScratch/TryCompile-KOCVAp"
+      binary: "/home/cjf/v1.0-eac5/rmm/build/CMakeFiles/CMakeScratch/TryCompile-KOCVAp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fno-common -ffunction-sections -fdata-sections -fno-stack-protector -U_FORTIFY_SOURCE -Wall -gdwarf-4 -ffreestanding -march=armv8.5-a -mbranch-protection=standard -mgeneral-regs-only -mstrict-align -fomit-frame-pointer -fpie"
+      CMAKE_C_FLAGS_DEBUG: "-Og  -g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--gc-sections -g -nostdlib -Wl,-pie"
+      CMAKE_MODULE_PATH: "/home/cjf/v1.0-eac5/rmm/cmake/Modules"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cjf/v1.0-eac5/rmm/build/CMakeFiles/CMakeScratch/TryCompile-KOCVAp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_46303/fast
+        gmake[1]: Entering directory '/home/cjf/v1.0-eac5/rmm/build/CMakeFiles/CMakeScratch/TryCompile-KOCVAp'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_46303.dir/build.make CMakeFiles/cmTC_46303.dir/build
+        gmake[2]: Entering directory '/home/cjf/v1.0-eac5/rmm/build/CMakeFiles/CMakeScratch/TryCompile-KOCVAp'
+        Building C object CMakeFiles/cmTC_46303.dir/CMakeCCompilerABI.c.obj
+        /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-gcc   -fno-common -ffunction-sections -fdata-sections -fno-stack-protector -U_FORTIFY_SOURCE -Wall -gdwarf-4 -ffreestanding -march=armv8.5-a -mbranch-protection=standard -mgeneral-regs-only -mstrict-align -fomit-frame-pointer -fpie    -v -o CMakeFiles/cmTC_46303.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-gcc
+        Target: aarch64-none-elf
+        Configured with: /data/jenkins/workspace/GNU-toolchain/arm-11/src/gcc/configure --target=aarch64-none-elf --prefix=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/install// --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-pkgversion='GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)' --with-bugurl=https://bugs.linaro.org/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 11.2.1 20220111 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) 
+        COLLECT_GCC_OPTIONS='-fno-common' '-ffunction-sections' '-fdata-sections' '-fno-stack-protector' '-U' '_FORTIFY_SOURCE' '-Wall' '-gdwarf-4' '-ffreestanding' '-march=armv8.5-a' '-mbranch-protection=standard' '-mgeneral-regs-only' '-mstrict-align' '-fomit-frame-pointer' '-fpie' '-v' '-o' 'CMakeFiles/cmTC_46303.dir/CMakeCCompilerABI.c.obj' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_46303.dir/'
+         /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/cc1 -quiet -v -iprefix /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/ -U _FORTIFY_SOURCE /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_46303.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=armv8.5-a -mbranch-protection=standard -mgeneral-regs-only -mstrict-align -mlittle-endian -mabi=lp64 -gdwarf-4 -Wall -version -fno-common -ffunction-sections -fdata-sections -fno-stack-protector -ffreestanding -fomit-frame-pointer -fpie -o /tmp/ccgY2NVQ.s
+        GNU C17 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) version 11.2.1 20220111 (aarch64-none-elf)
+        	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/sys-include"
+        ignoring duplicate directory "/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/include"
+        ignoring duplicate directory "/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/include-fixed"
+        ignoring nonexistent directory "/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/sys-include"
+        ignoring duplicate directory "/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/include
+         /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/include-fixed
+         /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include
+        End of search list.
+        GNU C17 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) version 11.2.1 20220111 (aarch64-none-elf)
+        	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: f439aba255d83361daaefa61251d2eab
+        COLLECT_GCC_OPTIONS='-fno-common' '-ffunction-sections' '-fdata-sections' '-fno-stack-protector' '-U' '_FORTIFY_SOURCE' '-Wall' '-gdwarf-4' '-ffreestanding' '-march=armv8.5-a' '-mbranch-protection=standard' '-mgeneral-regs-only' '-mstrict-align' '-fomit-frame-pointer' '-fpie' '-v' '-o' 'CMakeFiles/cmTC_46303.dir/CMakeCCompilerABI.c.obj' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_46303.dir/'
+         /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/bin/as --gdwarf-4 -EL -march=armv8.5-a -mabi=lp64 -o CMakeFiles/cmTC_46303.dir/CMakeCCompilerABI.c.obj /tmp/ccgY2NVQ.s
+        COMPILER_PATH=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/bin/
+        LIBRARY_PATH=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib/
+        COLLECT_GCC_OPTIONS='-fno-common' '-ffunction-sections' '-fdata-sections' '-fno-stack-protector' '-U' '_FORTIFY_SOURCE' '-Wall' '-gdwarf-4' '-ffreestanding' '-march=armv8.5-a' '-mbranch-protection=standard' '-mgeneral-regs-only' '-mstrict-align' '-fomit-frame-pointer' '-fpie' '-v' '-o' 'CMakeFiles/cmTC_46303.dir/CMakeCCompilerABI.c.obj' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_46303.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_46303
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46303.dir/link.txt --verbose=1
+        /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-gcc -fno-common -ffunction-sections -fdata-sections -fno-stack-protector -U_FORTIFY_SOURCE -Wall -gdwarf-4 -ffreestanding -march=armv8.5-a -mbranch-protection=standard -mgeneral-regs-only -mstrict-align -fomit-frame-pointer -fpie  -Wl,--gc-sections -g -nostdlib -Wl,-pie -v CMakeFiles/cmTC_46303.dir/CMakeCCompilerABI.c.obj -o cmTC_46303 
+        Using built-in specs.
+        COLLECT_GCC=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-gcc
+        COLLECT_LTO_WRAPPER=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/lto-wrapper
+        Target: aarch64-none-elf
+        Configured with: /data/jenkins/workspace/GNU-toolchain/arm-11/src/gcc/configure --target=aarch64-none-elf --prefix=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/install// --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-pkgversion='GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)' --with-bugurl=https://bugs.linaro.org/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 11.2.1 20220111 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) 
+        COMPILER_PATH=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/bin/
+        LIBRARY_PATH=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib/
+        COLLECT_GCC_OPTIONS='-fno-common' '-ffunction-sections' '-fdata-sections' '-fno-stack-protector' '-U' '_FORTIFY_SOURCE' '-Wall' '-gdwarf-4' '-ffreestanding' '-march=armv8.5-a' '-mbranch-protection=standard' '-mgeneral-regs-only' '-mstrict-align' '-fomit-frame-pointer' '-fpie' '-g' '-nostdlib' '-v' '-o' 'cmTC_46303' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_46303.'
+         /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/collect2 -plugin /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/liblto_plugin.so -plugin-opt=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccELCbV1.res -EL -X -maarch64elf -o cmTC_46303 -L/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1 -L/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc -L/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib --gc-sections -pie CMakeFiles/cmTC_46303.dir/CMakeCCompilerABI.c.obj
+        /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/bin/ld: warning: cannot find entry symbol _start; not setting start address
+        COLLECT_GCC_OPTIONS='-fno-common' '-ffunction-sections' '-fdata-sections' '-fno-stack-protector' '-U' '_FORTIFY_SOURCE' '-Wall' '-gdwarf-4' '-ffreestanding' '-march=armv8.5-a' '-mbranch-protection=standard' '-mgeneral-regs-only' '-mstrict-align' '-fomit-frame-pointer' '-fpie' '-g' '-nostdlib' '-v' '-o' 'cmTC_46303' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_46303.'
+        gmake[2]: Leaving directory '/home/cjf/v1.0-eac5/rmm/build/CMakeFiles/CMakeScratch/TryCompile-KOCVAp'
+        gmake[1]: Leaving directory '/home/cjf/v1.0-eac5/rmm/build/CMakeFiles/CMakeScratch/TryCompile-KOCVAp'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:51 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/include]
+          add: [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/include-fixed]
+          add: [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include]
+        end of search list found
+        collapse include dir [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/include] ==> [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/lib/gcc/aarch64-none-elf/11.2.1/include]
+        collapse include dir [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/include-fixed] ==> [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/lib/gcc/aarch64-none-elf/11.2.1/include-fixed]
+        collapse include dir [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include] ==> [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/aarch64-none-elf/include]
+        implicit include dirs: [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/lib/gcc/aarch64-none-elf/11.2.1/include;/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/lib/gcc/aarch64-none-elf/11.2.1/include-fixed;/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/aarch64-none-elf/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:51 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(aarch64-none-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/cjf/v1.0-eac5/rmm/build/CMakeFiles/CMakeScratch/TryCompile-KOCVAp']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_46303/fast]
+        ignore line: [gmake[1]: Entering directory '/home/cjf/v1.0-eac5/rmm/build/CMakeFiles/CMakeScratch/TryCompile-KOCVAp']
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_46303.dir/build.make CMakeFiles/cmTC_46303.dir/build]
+        ignore line: [gmake[2]: Entering directory '/home/cjf/v1.0-eac5/rmm/build/CMakeFiles/CMakeScratch/TryCompile-KOCVAp']
+        ignore line: [Building C object CMakeFiles/cmTC_46303.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-gcc   -fno-common -ffunction-sections -fdata-sections -fno-stack-protector -U_FORTIFY_SOURCE -Wall -gdwarf-4 -ffreestanding -march=armv8.5-a -mbranch-protection=standard -mgeneral-regs-only -mstrict-align -fomit-frame-pointer -fpie    -v -o CMakeFiles/cmTC_46303.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-gcc]
+        ignore line: [Target: aarch64-none-elf]
+        ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-11/src/gcc/configure --target=aarch64-none-elf --prefix=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/install// --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c c++ fortran --with-newlib --with-pkgversion='GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)' --with-bugurl=https://bugs.linaro.org/]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 11.2.1 20220111 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-common' '-ffunction-sections' '-fdata-sections' '-fno-stack-protector' '-U' '_FORTIFY_SOURCE' '-Wall' '-gdwarf-4' '-ffreestanding' '-march=armv8.5-a' '-mbranch-protection=standard' '-mgeneral-regs-only' '-mstrict-align' '-fomit-frame-pointer' '-fpie' '-v' '-o' 'CMakeFiles/cmTC_46303.dir/CMakeCCompilerABI.c.obj' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_46303.dir/']
+        ignore line: [ /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/cc1 -quiet -v -iprefix /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/ -U _FORTIFY_SOURCE /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_46303.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=armv8.5-a -mbranch-protection=standard -mgeneral-regs-only -mstrict-align -mlittle-endian -mabi=lp64 -gdwarf-4 -Wall -version -fno-common -ffunction-sections -fdata-sections -fno-stack-protector -ffreestanding -fomit-frame-pointer -fpie -o /tmp/ccgY2NVQ.s]
+        ignore line: [GNU C17 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) version 11.2.1 20220111 (aarch64-none-elf)]
+        ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/sys-include"]
+        ignore line: [ignoring duplicate directory "/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/include"]
+        ignore line: [ignoring duplicate directory "/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/sys-include"]
+        ignore line: [ignoring duplicate directory "/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/include]
+        ignore line: [ /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/include-fixed]
+        ignore line: [ /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) version 11.2.1 20220111 (aarch64-none-elf)]
+        ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: f439aba255d83361daaefa61251d2eab]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-common' '-ffunction-sections' '-fdata-sections' '-fno-stack-protector' '-U' '_FORTIFY_SOURCE' '-Wall' '-gdwarf-4' '-ffreestanding' '-march=armv8.5-a' '-mbranch-protection=standard' '-mgeneral-regs-only' '-mstrict-align' '-fomit-frame-pointer' '-fpie' '-v' '-o' 'CMakeFiles/cmTC_46303.dir/CMakeCCompilerABI.c.obj' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_46303.dir/']
+        ignore line: [ /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/bin/as --gdwarf-4 -EL -march=armv8.5-a -mabi=lp64 -o CMakeFiles/cmTC_46303.dir/CMakeCCompilerABI.c.obj /tmp/ccgY2NVQ.s]
+        ignore line: [COMPILER_PATH=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/bin/]
+        ignore line: [LIBRARY_PATH=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-common' '-ffunction-sections' '-fdata-sections' '-fno-stack-protector' '-U' '_FORTIFY_SOURCE' '-Wall' '-gdwarf-4' '-ffreestanding' '-march=armv8.5-a' '-mbranch-protection=standard' '-mgeneral-regs-only' '-mstrict-align' '-fomit-frame-pointer' '-fpie' '-v' '-o' 'CMakeFiles/cmTC_46303.dir/CMakeCCompilerABI.c.obj' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_46303.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_46303]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46303.dir/link.txt --verbose=1]
+        ignore line: [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-gcc -fno-common -ffunction-sections -fdata-sections -fno-stack-protector -U_FORTIFY_SOURCE -Wall -gdwarf-4 -ffreestanding -march=armv8.5-a -mbranch-protection=standard -mgeneral-regs-only -mstrict-align -fomit-frame-pointer -fpie  -Wl --gc-sections -g -nostdlib -Wl -pie -v CMakeFiles/cmTC_46303.dir/CMakeCCompilerABI.c.obj -o cmTC_46303 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/lto-wrapper]
+        ignore line: [Target: aarch64-none-elf]
+        ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-11/src/gcc/configure --target=aarch64-none-elf --prefix=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/install// --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c c++ fortran --with-newlib --with-pkgversion='GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)' --with-bugurl=https://bugs.linaro.org/]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 11.2.1 20220111 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) ]
+        ignore line: [COMPILER_PATH=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/bin/]
+        ignore line: [LIBRARY_PATH=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-common' '-ffunction-sections' '-fdata-sections' '-fno-stack-protector' '-U' '_FORTIFY_SOURCE' '-Wall' '-gdwarf-4' '-ffreestanding' '-march=armv8.5-a' '-mbranch-protection=standard' '-mgeneral-regs-only' '-mstrict-align' '-fomit-frame-pointer' '-fpie' '-g' '-nostdlib' '-v' '-o' 'cmTC_46303' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_46303.']
+        link line: [ /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/collect2 -plugin /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/liblto_plugin.so -plugin-opt=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccELCbV1.res -EL -X -maarch64elf -o cmTC_46303 -L/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1 -L/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc -L/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib --gc-sections -pie CMakeFiles/cmTC_46303.dir/CMakeCCompilerABI.c.obj]
+          arg [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccELCbV1.res] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-X] ==> ignore
+          arg [-maarch64elf] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_46303] ==> ignore
+          arg [-L/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1] ==> dir [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1]
+          arg [-L/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc] ==> dir [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc]
+          arg [-L/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib] ==> dir [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib]
+          arg [--gc-sections] ==> ignore
+          arg [-pie] ==> ignore
+          arg [CMakeFiles/cmTC_46303.dir/CMakeCCompilerABI.c.obj] ==> ignore
+        collapse library dir [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1] ==> [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/lib/gcc/aarch64-none-elf/11.2.1]
+        collapse library dir [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc] ==> [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/lib/gcc]
+        collapse library dir [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib] ==> [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/aarch64-none-elf/lib]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/lib/gcc/aarch64-none-elf/11.2.1;/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/lib/gcc;/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/aarch64-none-elf/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:51 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/cjf/v1.0-eac5/rmm/build/CMakeFiles/CMakeScratch/TryCompile-R8UpSS"
+      binary: "/home/cjf/v1.0-eac5/rmm/build/CMakeFiles/CMakeScratch/TryCompile-R8UpSS"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fno-common -ffunction-sections -fdata-sections -fno-stack-protector -U_FORTIFY_SOURCE -Wall -gdwarf-4"
+      CMAKE_CXX_FLAGS_DEBUG: "-Og  -g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--gc-sections -g -nostdlib -Wl,-pie"
+      CMAKE_MODULE_PATH: "/home/cjf/v1.0-eac5/rmm/cmake/Modules"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cjf/v1.0-eac5/rmm/build/CMakeFiles/CMakeScratch/TryCompile-R8UpSS'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f0535/fast
+        gmake[1]: Entering directory '/home/cjf/v1.0-eac5/rmm/build/CMakeFiles/CMakeScratch/TryCompile-R8UpSS'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f0535.dir/build.make CMakeFiles/cmTC_f0535.dir/build
+        gmake[2]: Entering directory '/home/cjf/v1.0-eac5/rmm/build/CMakeFiles/CMakeScratch/TryCompile-R8UpSS'
+        Building CXX object CMakeFiles/cmTC_f0535.dir/CMakeCXXCompilerABI.cpp.obj
+        /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-c++   -fno-common -ffunction-sections -fdata-sections -fno-stack-protector -U_FORTIFY_SOURCE -Wall -gdwarf-4    -v -o CMakeFiles/cmTC_f0535.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-c++
+        Target: aarch64-none-elf
+        Configured with: /data/jenkins/workspace/GNU-toolchain/arm-11/src/gcc/configure --target=aarch64-none-elf --prefix=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/install// --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-pkgversion='GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)' --with-bugurl=https://bugs.linaro.org/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 11.2.1 20220111 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) 
+        COLLECT_GCC_OPTIONS='-fno-common' '-ffunction-sections' '-fdata-sections' '-fno-stack-protector' '-U' '_FORTIFY_SOURCE' '-Wall' '-gdwarf-4' '-v' '-o' 'CMakeFiles/cmTC_f0535.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_f0535.dir/'
+         /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/cc1plus -quiet -v -iprefix /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/ -U _FORTIFY_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f0535.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -gdwarf-4 -Wall -version -fno-common -ffunction-sections -fdata-sections -fno-stack-protector -o /tmp/cceyLbt8.s
+        GNU C++17 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) version 11.2.1 20220111 (aarch64-none-elf)
+        	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/sys-include"
+        ignoring duplicate directory "/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include/c++/11.2.1"
+        ignoring duplicate directory "/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include/c++/11.2.1/aarch64-none-elf"
+        ignoring duplicate directory "/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include/c++/11.2.1/backward"
+        ignoring duplicate directory "/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/include"
+        ignoring duplicate directory "/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/include-fixed"
+        ignoring nonexistent directory "/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/sys-include"
+        ignoring duplicate directory "/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include/c++/11.2.1
+         /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include/c++/11.2.1/aarch64-none-elf
+         /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include/c++/11.2.1/backward
+         /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/include
+         /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/include-fixed
+         /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include
+        End of search list.
+        GNU C++17 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) version 11.2.1 20220111 (aarch64-none-elf)
+        	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 5f42272f380975cd8128c5fbd7fb52b2
+        COLLECT_GCC_OPTIONS='-fno-common' '-ffunction-sections' '-fdata-sections' '-fno-stack-protector' '-U' '_FORTIFY_SOURCE' '-Wall' '-gdwarf-4' '-v' '-o' 'CMakeFiles/cmTC_f0535.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_f0535.dir/'
+         /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/bin/as --gdwarf-4 -EL -mabi=lp64 -o CMakeFiles/cmTC_f0535.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cceyLbt8.s
+        COMPILER_PATH=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/bin/
+        LIBRARY_PATH=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib/
+        COLLECT_GCC_OPTIONS='-fno-common' '-ffunction-sections' '-fdata-sections' '-fno-stack-protector' '-U' '_FORTIFY_SOURCE' '-Wall' '-gdwarf-4' '-v' '-o' 'CMakeFiles/cmTC_f0535.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_f0535.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_f0535
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0535.dir/link.txt --verbose=1
+        /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-c++ -fno-common -ffunction-sections -fdata-sections -fno-stack-protector -U_FORTIFY_SOURCE -Wall -gdwarf-4  -Wl,--gc-sections -g -nostdlib -Wl,-pie -v CMakeFiles/cmTC_f0535.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_f0535 
+        Using built-in specs.
+        COLLECT_GCC=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-c++
+        COLLECT_LTO_WRAPPER=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/lto-wrapper
+        Target: aarch64-none-elf
+        Configured with: /data/jenkins/workspace/GNU-toolchain/arm-11/src/gcc/configure --target=aarch64-none-elf --prefix=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/install// --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-pkgversion='GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)' --with-bugurl=https://bugs.linaro.org/
+        Thread model: single
+        Supported LTO compression algorithms: zlib
+        gcc version 11.2.1 20220111 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) 
+        COMPILER_PATH=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/bin/
+        LIBRARY_PATH=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib/
+        COLLECT_GCC_OPTIONS='-fno-common' '-ffunction-sections' '-fdata-sections' '-fno-stack-protector' '-U' '_FORTIFY_SOURCE' '-Wall' '-gdwarf-4' '-g' '-nostdlib' '-v' '-o' 'cmTC_f0535' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_f0535.'
+         /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/collect2 -plugin /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/liblto_plugin.so -plugin-opt=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMAjx2t.res -EL -X -maarch64elf -o cmTC_f0535 -L/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1 -L/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc -L/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib --gc-sections -pie CMakeFiles/cmTC_f0535.dir/CMakeCXXCompilerABI.cpp.obj
+        /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/bin/ld: warning: cannot find entry symbol _start; not setting start address
+        COLLECT_GCC_OPTIONS='-fno-common' '-ffunction-sections' '-fdata-sections' '-fno-stack-protector' '-U' '_FORTIFY_SOURCE' '-Wall' '-gdwarf-4' '-g' '-nostdlib' '-v' '-o' 'cmTC_f0535' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_f0535.'
+        gmake[2]: Leaving directory '/home/cjf/v1.0-eac5/rmm/build/CMakeFiles/CMakeScratch/TryCompile-R8UpSS'
+        gmake[1]: Leaving directory '/home/cjf/v1.0-eac5/rmm/build/CMakeFiles/CMakeScratch/TryCompile-R8UpSS'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:51 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include/c++/11.2.1]
+          add: [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include/c++/11.2.1/aarch64-none-elf]
+          add: [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include/c++/11.2.1/backward]
+          add: [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/include]
+          add: [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/include-fixed]
+          add: [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include]
+        end of search list found
+        collapse include dir [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include/c++/11.2.1] ==> [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/aarch64-none-elf/include/c++/11.2.1]
+        collapse include dir [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include/c++/11.2.1/aarch64-none-elf] ==> [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/aarch64-none-elf/include/c++/11.2.1/aarch64-none-elf]
+        collapse include dir [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include/c++/11.2.1/backward] ==> [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/aarch64-none-elf/include/c++/11.2.1/backward]
+        collapse include dir [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/include] ==> [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/lib/gcc/aarch64-none-elf/11.2.1/include]
+        collapse include dir [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/include-fixed] ==> [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/lib/gcc/aarch64-none-elf/11.2.1/include-fixed]
+        collapse include dir [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include] ==> [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/aarch64-none-elf/include]
+        implicit include dirs: [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/aarch64-none-elf/include/c++/11.2.1;/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/aarch64-none-elf/include/c++/11.2.1/aarch64-none-elf;/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/aarch64-none-elf/include/c++/11.2.1/backward;/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/lib/gcc/aarch64-none-elf/11.2.1/include;/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/lib/gcc/aarch64-none-elf/11.2.1/include-fixed;/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/aarch64-none-elf/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:51 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(aarch64-none-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/cjf/v1.0-eac5/rmm/build/CMakeFiles/CMakeScratch/TryCompile-R8UpSS']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f0535/fast]
+        ignore line: [gmake[1]: Entering directory '/home/cjf/v1.0-eac5/rmm/build/CMakeFiles/CMakeScratch/TryCompile-R8UpSS']
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_f0535.dir/build.make CMakeFiles/cmTC_f0535.dir/build]
+        ignore line: [gmake[2]: Entering directory '/home/cjf/v1.0-eac5/rmm/build/CMakeFiles/CMakeScratch/TryCompile-R8UpSS']
+        ignore line: [Building CXX object CMakeFiles/cmTC_f0535.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-c++   -fno-common -ffunction-sections -fdata-sections -fno-stack-protector -U_FORTIFY_SOURCE -Wall -gdwarf-4    -v -o CMakeFiles/cmTC_f0535.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-c++]
+        ignore line: [Target: aarch64-none-elf]
+        ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-11/src/gcc/configure --target=aarch64-none-elf --prefix=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/install// --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c c++ fortran --with-newlib --with-pkgversion='GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)' --with-bugurl=https://bugs.linaro.org/]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 11.2.1 20220111 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-common' '-ffunction-sections' '-fdata-sections' '-fno-stack-protector' '-U' '_FORTIFY_SOURCE' '-Wall' '-gdwarf-4' '-v' '-o' 'CMakeFiles/cmTC_f0535.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_f0535.dir/']
+        ignore line: [ /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/cc1plus -quiet -v -iprefix /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/ -U _FORTIFY_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_f0535.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlittle-endian -mabi=lp64 -gdwarf-4 -Wall -version -fno-common -ffunction-sections -fdata-sections -fno-stack-protector -o /tmp/cceyLbt8.s]
+        ignore line: [GNU C++17 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) version 11.2.1 20220111 (aarch64-none-elf)]
+        ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/sys-include"]
+        ignore line: [ignoring duplicate directory "/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include/c++/11.2.1"]
+        ignore line: [ignoring duplicate directory "/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include/c++/11.2.1/aarch64-none-elf"]
+        ignore line: [ignoring duplicate directory "/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include/c++/11.2.1/backward"]
+        ignore line: [ignoring duplicate directory "/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/include"]
+        ignore line: [ignoring duplicate directory "/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/sys-include"]
+        ignore line: [ignoring duplicate directory "/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/../../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include/c++/11.2.1]
+        ignore line: [ /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include/c++/11.2.1/aarch64-none-elf]
+        ignore line: [ /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include/c++/11.2.1/backward]
+        ignore line: [ /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/include]
+        ignore line: [ /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/include-fixed]
+        ignore line: [ /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) version 11.2.1 20220111 (aarch64-none-elf)]
+        ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44)  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 5f42272f380975cd8128c5fbd7fb52b2]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-common' '-ffunction-sections' '-fdata-sections' '-fno-stack-protector' '-U' '_FORTIFY_SOURCE' '-Wall' '-gdwarf-4' '-v' '-o' 'CMakeFiles/cmTC_f0535.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_f0535.dir/']
+        ignore line: [ /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/bin/as --gdwarf-4 -EL -mabi=lp64 -o CMakeFiles/cmTC_f0535.dir/CMakeCXXCompilerABI.cpp.obj /tmp/cceyLbt8.s]
+        ignore line: [COMPILER_PATH=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/bin/]
+        ignore line: [LIBRARY_PATH=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-common' '-ffunction-sections' '-fdata-sections' '-fno-stack-protector' '-U' '_FORTIFY_SOURCE' '-Wall' '-gdwarf-4' '-v' '-o' 'CMakeFiles/cmTC_f0535.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_f0535.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_f0535]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0535.dir/link.txt --verbose=1]
+        ignore line: [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-c++ -fno-common -ffunction-sections -fdata-sections -fno-stack-protector -U_FORTIFY_SOURCE -Wall -gdwarf-4  -Wl --gc-sections -g -nostdlib -Wl -pie -v CMakeFiles/cmTC_f0535.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_f0535 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/lto-wrapper]
+        ignore line: [Target: aarch64-none-elf]
+        ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-11/src/gcc/configure --target=aarch64-none-elf --prefix=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/install// --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-11/build-aarch64-none-elf/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c c++ fortran --with-newlib --with-pkgversion='GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)' --with-bugurl=https://bugs.linaro.org/]
+        ignore line: [Thread model: single]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 11.2.1 20220111 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) ]
+        ignore line: [COMPILER_PATH=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/bin/]
+        ignore line: [LIBRARY_PATH=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/:/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fno-common' '-ffunction-sections' '-fdata-sections' '-fno-stack-protector' '-U' '_FORTIFY_SOURCE' '-Wall' '-gdwarf-4' '-g' '-nostdlib' '-v' '-o' 'cmTC_f0535' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_f0535.']
+        link line: [ /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/collect2 -plugin /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/liblto_plugin.so -plugin-opt=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMAjx2t.res -EL -X -maarch64elf -o cmTC_f0535 -L/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1 -L/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc -L/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib --gc-sections -pie CMakeFiles/cmTC_f0535.dir/CMakeCXXCompilerABI.cpp.obj]
+          arg [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../libexec/gcc/aarch64-none-elf/11.2.1/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccMAjx2t.res] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-X] ==> ignore
+          arg [-maarch64elf] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_f0535] ==> ignore
+          arg [-L/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1] ==> dir [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1]
+          arg [-L/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc] ==> dir [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc]
+          arg [-L/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib] ==> dir [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib]
+          arg [--gc-sections] ==> ignore
+          arg [-pie] ==> ignore
+          arg [CMakeFiles/cmTC_f0535.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+        collapse library dir [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1] ==> [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/lib/gcc/aarch64-none-elf/11.2.1]
+        collapse library dir [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc] ==> [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/lib/gcc]
+        collapse library dir [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/lib] ==> [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/aarch64-none-elf/lib]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/lib/gcc/aarch64-none-elf/11.2.1;/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/lib/gcc;/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/aarch64-none-elf/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "ext/mbedtls/CMakeLists.txt:195 (CHECK_C_COMPILER_FLAG)"
+    checks:
+      - "Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS"
+    directories:
+      source: "/home/cjf/v1.0-eac5/rmm/build/CMakeFiles/CMakeScratch/TryCompile-cJXwCO"
+      binary: "/home/cjf/v1.0-eac5/rmm/build/CMakeFiles/CMakeScratch/TryCompile-cJXwCO"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-fno-common -ffunction-sections -fdata-sections -fno-stack-protector -U_FORTIFY_SOURCE -Wall -Werror -gdwarf-4 -ffreestanding -march=armv8.5-a -mbranch-protection=standard -mgeneral-regs-only -mstrict-align -fomit-frame-pointer -fpie -Wall -Wextra -Wwrite-strings -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--gc-sections -g -nostdlib -Wl,-pie"
+      CMAKE_MODULE_PATH: "/home/cjf/v1.0-eac5/rmm/cmake/Modules"
+    buildResult:
+      variable: "C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/cjf/v1.0-eac5/rmm/build/CMakeFiles/CMakeScratch/TryCompile-cJXwCO'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c154a/fast
+        gmake[1]: Entering directory '/home/cjf/v1.0-eac5/rmm/build/CMakeFiles/CMakeScratch/TryCompile-cJXwCO'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c154a.dir/build.make CMakeFiles/cmTC_c154a.dir/build
+        gmake[2]: Entering directory '/home/cjf/v1.0-eac5/rmm/build/CMakeFiles/CMakeScratch/TryCompile-cJXwCO'
+        Building C object CMakeFiles/cmTC_c154a.dir/src.c.obj
+        /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-gcc -DC_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS  -fno-common -ffunction-sections -fdata-sections -fno-stack-protector -U_FORTIFY_SOURCE -Wall -Werror -gdwarf-4 -ffreestanding -march=armv8.5-a -mbranch-protection=standard -mgeneral-regs-only -mstrict-align -fomit-frame-pointer -fpie -Wall -Wextra -Wwrite-strings -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow    -Wformat-signedness -o CMakeFiles/cmTC_c154a.dir/src.c.obj -c /home/cjf/v1.0-eac5/rmm/build/CMakeFiles/CMakeScratch/TryCompile-cJXwCO/src.c
+        Linking C executable cmTC_c154a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c154a.dir/link.txt --verbose=1
+        /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-gcc -fno-common -ffunction-sections -fdata-sections -fno-stack-protector -U_FORTIFY_SOURCE -Wall -Werror -gdwarf-4 -ffreestanding -march=armv8.5-a -mbranch-protection=standard -mgeneral-regs-only -mstrict-align -fomit-frame-pointer -fpie -Wall -Wextra -Wwrite-strings -Wformat=2 -Wno-format-nonliteral -Wvla -Wlogical-op -Wshadow  -Wl,--gc-sections -g -nostdlib -Wl,-pie  CMakeFiles/cmTC_c154a.dir/src.c.obj -o cmTC_c154a 
+        /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/../lib/gcc/aarch64-none-elf/11.2.1/../../../../aarch64-none-elf/bin/ld: warning: cannot find entry symbol _start; not setting start address
+        gmake[2]: Leaving directory '/home/cjf/v1.0-eac5/rmm/build/CMakeFiles/CMakeScratch/TryCompile-cJXwCO'
+        gmake[1]: Leaving directory '/home/cjf/v1.0-eac5/rmm/build/CMakeFiles/CMakeScratch/TryCompile-cJXwCO'
+        
+      exitCode: 0
+...

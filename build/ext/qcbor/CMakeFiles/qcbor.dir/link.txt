@@ -1,0 +1,2 @@
+/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-ar qc libqcbor.a CMakeFiles/qcbor.dir/src/ieee754.c.obj CMakeFiles/qcbor.dir/src/qcbor_decode.c.obj CMakeFiles/qcbor.dir/src/qcbor_encode.c.obj CMakeFiles/qcbor.dir/src/qcbor_err_to_str.c.obj CMakeFiles/qcbor.dir/src/UsefulBuf.c.obj
+/home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/bin/aarch64-none-elf-ranlib libqcbor.a

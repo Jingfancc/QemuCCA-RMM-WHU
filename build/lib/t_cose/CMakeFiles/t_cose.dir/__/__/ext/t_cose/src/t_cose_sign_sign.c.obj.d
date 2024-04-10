@@ -1,0 +1,24 @@
+lib/t_cose/CMakeFiles/t_cose.dir/__/__/ext/t_cose/src/t_cose_sign_sign.c.obj: \
+ /home/cjf/v1.0-eac5/rmm/ext/t_cose/src/t_cose_sign_sign.c \
+ /home/cjf/v1.0-eac5/rmm/ext/qcbor/inc/qcbor/qcbor_encode.h \
+ /home/cjf/v1.0-eac5/rmm/ext/qcbor/inc/qcbor/qcbor_common.h \
+ /home/cjf/v1.0-eac5/rmm/ext/qcbor/inc/qcbor/qcbor_private.h \
+ /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/lib/gcc/aarch64-none-elf/11.2.1/include/stdint.h \
+ /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/lib/gcc/aarch64-none-elf/11.2.1/include/stdint-gcc.h \
+ /home/cjf/v1.0-eac5/rmm/ext/qcbor/inc/qcbor/UsefulBuf.h \
+ /home/cjf/v1.0-eac5/rmm/lib/libc/include/string.h \
+ /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/lib/gcc/aarch64-none-elf/11.2.1/include/stddef.h \
+ /home/cjf/v1.0-eac5/toolchains/aarch64-none-elf/lib/gcc/aarch64-none-elf/11.2.1/include/stdbool.h \
+ /home/cjf/v1.0-eac5/rmm/ext/t_cose/inc/t_cose/t_cose_sign_sign.h \
+ /home/cjf/v1.0-eac5/rmm/ext/qcbor/inc/qcbor/qcbor.h \
+ /home/cjf/v1.0-eac5/rmm/ext/qcbor/inc/qcbor/qcbor_encode.h \
+ /home/cjf/v1.0-eac5/rmm/ext/qcbor/inc/qcbor/qcbor_decode.h \
+ /home/cjf/v1.0-eac5/rmm/ext/t_cose/inc/t_cose/q_useful_buf.h \
+ /home/cjf/v1.0-eac5/rmm/ext/qcbor/inc/qcbor/UsefulBuf.h \
+ /home/cjf/v1.0-eac5/rmm/ext/t_cose/inc/t_cose/t_cose_common.h \
+ /home/cjf/v1.0-eac5/rmm/ext/t_cose/inc/t_cose/t_cose_signature_sign.h \
+ /home/cjf/v1.0-eac5/rmm/ext/t_cose/inc/t_cose/t_cose_parameters.h \
+ /home/cjf/v1.0-eac5/rmm/ext/t_cose/inc/t_cose/t_cose_standard_constants.h \
+ /home/cjf/v1.0-eac5/rmm/ext/t_cose/inc/t_cose/t_cose_key.h \
+ /home/cjf/v1.0-eac5/rmm/ext/t_cose/src/t_cose_util.h \
+ /home/cjf/v1.0-eac5/rmm/ext/qcbor/inc/qcbor/qcbor_decode.h
